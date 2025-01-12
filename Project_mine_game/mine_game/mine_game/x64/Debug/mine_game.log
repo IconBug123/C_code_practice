@@ -1,7 +1,7 @@
 ﻿  game_funcs.c
-E:\VS_Project_Test\C_demo\Project_mine_game\mine_game\mine_game\game_funcs.c(11,70): warning C4029: 声明的形参表不同于定义
-E:\VS_Project_Test\C_demo\Project_mine_game\mine_game\mine_game\game_funcs.c(39,19): warning C4474: printf: 格式字符串中传递的参数太多
-E:\VS_Project_Test\C_demo\Project_mine_game\mine_game\mine_game\game_funcs.c(39,19): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
-E:\VS_Project_Test\C_demo\Project_mine_game\mine_game\mine_game\game_funcs.c(56,20): warning C4474: printf: 格式字符串中传递的参数太多
-E:\VS_Project_Test\C_demo\Project_mine_game\mine_game\mine_game\game_funcs.c(56,20): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
-  mine_game.vcxproj -> E:\VS_Project_Test\C_demo\Project_mine_game\mine_game\x64\Debug\mine_game.exe
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_mine_game\mine_game\mine_game\game_funcs.c(11,70): warning C4029: 声明的形参表不同于定义
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_mine_game\mine_game\mine_game\game_funcs.c(39,19): warning C4474: printf: 格式字符串中传递的参数太多
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_mine_game\mine_game\mine_game\game_funcs.c(39,19): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_mine_game\mine_game\mine_game\game_funcs.c(56,20): warning C4474: printf: 格式字符串中传递的参数太多
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_mine_game\mine_game\mine_game\game_funcs.c(56,20): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  mine_game.vcxproj -> E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_mine_game\mine_game\x64\Debug\mine_game.exe

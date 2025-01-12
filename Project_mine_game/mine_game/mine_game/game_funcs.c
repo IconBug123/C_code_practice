@@ -63,7 +63,7 @@ void DisplayBoard(char board[ROWS][COLS], int row, int col) {
 			printf("%d |", i);
 		}
 		else {
-			printf("%d  |", i);
+			printf("%d  |", i);					//show the number of each row
 		}
 		for (j = 1; j <= col; j++) {
 			printf(" %c |", board[i][j]);
@@ -126,7 +126,6 @@ void ExpansionMap(char show[ROWS][COLS], char mine[ROWS][COLS], int row, int col
 	else {
 		// 当前格子周围无地雷，展开
 		show[x][y] = ' ';
-	
 		for (int i = -1; i <= 1; i++) {
 			for (int j = -1; j <= 1; j++) {
 				if (i != 0 || j != 0) { // 跳过当前格子
@@ -208,7 +207,6 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col) {
 		DisplayBoard(mine, ROW, COL);
 		printf("\n\n");
 	}
-	
 }
 
 void game() {
@@ -228,14 +226,13 @@ void game() {
 	//DisplayBoard(mine, ROW, COL);
 	DisplayBoard(show, ROW, COL);
 
-	//排查雷，提示周围雷的个数
+	//排查雷，提示周围雷的个数，一直循环直到游戏结束
 	FindMine(mine, show, ROW, COL);
-
 }
 
 
 //提高改善
 /*
-* 1标记功能 (标记可疑位置)   未完成
-* 2展开一片  √
+* 1 标记功能 (标记可疑位置)		未完成
+* 2 展开一片								√完成
 */
