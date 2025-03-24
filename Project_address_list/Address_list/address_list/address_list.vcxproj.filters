@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="address_list.h">
+    <ClInclude Include="Address_List.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

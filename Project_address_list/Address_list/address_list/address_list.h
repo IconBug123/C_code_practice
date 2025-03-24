@@ -1,4 +1,3 @@
-
 #ifndef ADDRESS_HEAD
 #define ADDRESS_HEAD
 
@@ -6,10 +5,4 @@
 	#include<stdlib.h>
 	#include<time.h>
 
-
-
-
-
-
 #endif
-
