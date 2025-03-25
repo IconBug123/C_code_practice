@@ -17,3 +17,5 @@ Functions:
 	5 Edit a contact
 	6 Sort contacts by a specific order
 	7 View all contacts
+
+
