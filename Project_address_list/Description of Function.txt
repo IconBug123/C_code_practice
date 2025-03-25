@@ -1,0 +1,19 @@
+Personal Information
+
+	1 Name
+	2 Age
+	3 Gender
+	4 Phone Number
+	5 Address
+
+
+
+Functions:
+
+	1 Number of contacts 100
+	2 Add a contact
+	3 Delete a specific contact
+	4 Search for a contact
+	5 Edit a contact
+	6 Sort contacts by a specific order
+	7 View all contacts
