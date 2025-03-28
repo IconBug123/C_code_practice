@@ -27,25 +27,25 @@ int main()
         printf("Please choose:> ");
         scanf("%d", &input);
         switch (input) {
-        case 1:
+        case ADD:
             AddContact(&con);
             break;
-        case 2:
+        case DEL:
             DelContact(&con);
             break;
-        case 3:
+        case SEARCH:
             SearchContact(&con);
             break;
-        case 4:
+        case MODIFY:
             ModifyContact(&con);
             break;
-        case 5:
+        case SHOW:
             ShowContact(&con);
             break;
-        case 6:
+        case SORT:
             SortContact(&con);
             break;
-        case 0:
+        case EXIT:
             printf("Sign out.....\n");
             break;
         default:

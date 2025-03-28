@@ -1,6 +1,4 @@
 ﻿  func_address.c
 E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_address_list\Address_list\address_list\func_address.c(33,33): warning C4028: 形参 1 与声明不同
-E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_address_list\Address_list\address_list\func_address.c(154,2): warning C4013: “qsort”未定义；假设外部返回 int
-  main.c
-  正在生成代码...
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_address_list\Address_list\address_list\func_address.c(160,2): warning C4013: “qsort”未定义；假设外部返回 int
   address_list.vcxproj -> E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_address_list\Address_list\x64\Debug\address_list.exe
