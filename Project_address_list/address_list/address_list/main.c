@@ -2,6 +2,11 @@
 
 #include "head.h"
 
+
+//1 静态版本 Max 100  此处是1版本
+//2 动态版本 data里的数量可以改变
+//3 文本版本
+
 void menu() {
     printf("***************************************\n");
     printf("***** 1. add           2. del          ********\n");
@@ -32,11 +37,13 @@ int main()
             SearchContact(&con);
             break;
         case 4:
+            ModifyContact(&con);
             break;
         case 5:
             ShowContact(&con);
             break;
         case 6:
+            SortContact(&con);
             break;
         case 0:
             printf("Sign out.....\n");
