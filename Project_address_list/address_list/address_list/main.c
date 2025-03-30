@@ -3,7 +3,7 @@
 #include "head.h"
 
 
-//1 静态版本 Max 100  此处是1版本
+//1 静态版本 Max 100 
 //2 动态版本 data里的数量可以改变
 //3 文本版本
 
@@ -46,6 +46,7 @@ int main()
             SortContact(&con);
             break;
         case EXIT:
+            DestroyContact(&con);
             printf("Sign out.....\n");
             break;
         default:
