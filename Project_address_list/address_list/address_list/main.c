@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿#define _CRT_SECURE_NO_WARNINGS 1
 
 #include "head.h"
 
@@ -46,6 +46,7 @@ int main()
             SortContact(&con);
             break;
         case EXIT:
+            SaveContact(&con);
             DestroyContact(&con);
             printf("Sign out.....\n");
             break;
@@ -54,6 +55,5 @@ int main()
             break;
         }
     } while (input);
-    printf("Hello\n");
     return 0;
 }
