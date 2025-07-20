@@ -1,0 +1,28 @@
+﻿  main.cpp
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\myArray.hpp(70,4): warning C4297: “MyArray<Person>::operator []”: 假定函数不引发异常，但确实发生了
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\myArray.hpp(70,4): message : 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\myArray.hpp(68,1): message : 在编译 类 模板 成员函数“T &MyArray<T>::operator [](int) noexcept”时
+          with
+          [
+              T=Person
+          ]
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\main.cpp(52,60): message : 查看对正在编译的函数 模板 实例化“T &MyArray<T>::operator [](int) noexcept”的引用
+          with
+          [
+              T=Person
+          ]
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\main.cpp(51,21): message : 查看对正在编译的 类 模板 实例化“MyArray<Person>”的引用
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\myArray.hpp(70,4): warning C4297: “MyArray<int>::operator []”: 假定函数不引发异常，但确实发生了
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\myArray.hpp(70,4): message : 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\myArray.hpp(68,1): message : 在编译 类 模板 成员函数“T &MyArray<T>::operator [](int) noexcept”时
+          with
+          [
+              T=int
+          ]
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\main.cpp(7,31): message : 查看对正在编译的函数 模板 实例化“T &MyArray<T>::operator [](int) noexcept”的引用
+          with
+          [
+              T=int
+          ]
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\template_practice\main.cpp(6,21): message : 查看对正在编译的 类 模板 实例化“MyArray<int>”的引用
+  template_practice.vcxproj -> E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\Project_template_practice\template_practice\x64\Debug\template_practice.exe
