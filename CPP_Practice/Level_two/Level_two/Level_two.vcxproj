@@ -127,7 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="isoscelesTrapezoid.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="regularPolygon.cpp" />
+    <ClCompile Include="storage.cpp" />
+    <ClCompile Include="triangle.cpp" />
+    <ClCompile Include="ui_app.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="isoscelesTrapezoid.h" />
+    <ClInclude Include="rectangle.h" />
+    <ClInclude Include="regularPolygon.h" />
+    <ClInclude Include="shape.h" />
+    <ClInclude Include="Storage.h" />
+    <ClInclude Include="triangle.h" />
+    <ClInclude Include="UI_APP.h" />
+    <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,5 +18,55 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ui_app.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="isoscelesTrapezoid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="regularPolygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="storage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UI_APP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="isoscelesTrapezoid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="regularPolygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

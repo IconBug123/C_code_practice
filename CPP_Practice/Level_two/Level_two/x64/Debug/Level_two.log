@@ -1,2 +1,11 @@
-﻿  main.cpp
+﻿  isoscelesTrapezoid.cpp
+  main.cpp
+  circle.cpp
+  rectangle.cpp
+  regularPolygon.cpp
+  storage.cpp
+  triangle.cpp
+  ui_app.cpp
+E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\CPP_Practice\Level_two\Level_two\ui_app.cpp(93,25): warning C4566: 由通用字符名称“\u2705”表示的字符不能在当前代码页(936)中表示出来
+  正在生成代码...
   Level_two.vcxproj -> E:\资料书籍\GitHub仓库\鹏哥C语言\C_code_practice\CPP_Practice\Level_two\x64\Debug\Level_two.exe
