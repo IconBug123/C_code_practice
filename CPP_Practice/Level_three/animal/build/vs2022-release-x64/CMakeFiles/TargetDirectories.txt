@@ -1,3 +1,0 @@
-E:/资料书籍/GitHub仓库/鹏哥C语言/C_code_practice/CPP_Practice/Level_three/animal/animal/build/vs2022-release-x64/CMakeFiles/AnimalSim.dir
-E:/资料书籍/GitHub仓库/鹏哥C语言/C_code_practice/CPP_Practice/Level_three/animal/animal/build/vs2022-release-x64/CMakeFiles/ALL_BUILD.dir
-E:/资料书籍/GitHub仓库/鹏哥C语言/C_code_practice/CPP_Practice/Level_three/animal/animal/build/vs2022-release-x64/CMakeFiles/ZERO_CHECK.dir
