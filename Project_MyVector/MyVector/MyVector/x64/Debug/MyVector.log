@@ -1,2 +1,4 @@
 ﻿  main.cpp
+E:\资料书籍\GitHub仓库\C_code_practice\Project_MyVector\MyVector\MyVector\head.h(172,9): warning C4984: "if constexpr" 是一种 C++17 语言扩展
+E:\资料书籍\GitHub仓库\C_code_practice\Project_MyVector\MyVector\MyVector\head.h(202,2): message : 查看对正在编译的 类 模板 实例化“MyVector<T>”的引用
   MyVector.vcxproj -> E:\资料书籍\GitHub仓库\C_code_practice\Project_MyVector\MyVector\x64\Debug\MyVector.exe

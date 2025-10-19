@@ -7,6 +7,8 @@
 #include <cstddef>
 #include <new>          // placement new
 #include <numeric>      // std::gcd
+#include <type_traits>
+#include <memory>  // std::destroy_at
 
 // ===================== 模板类定义 =====================
 template<typename T>
@@ -161,9 +163,18 @@ private:
         data_ = nullptr; capacity_ = 0;
     }
 
-    void destroy_range_(size_type from, size_type to) noexcept {
+ /*   void destroy_range_(size_type from, size_type to) noexcept {
         for (size_type i = from; i < to; ++i)
             data_[i].~T();
+    }*/
+
+    void destroy_range_(size_type from, size_type to) noexcept {
+        if constexpr (!std::is_trivially_destructible_v<T>) {
+            for (size_type i = from; i < to; ++i) {
+                /*std::destroy_at(data_ + i);*/
+                data_[i].~T();
+            }
+        }
     }
 
     void reallocate_(size_type new_cap) {
